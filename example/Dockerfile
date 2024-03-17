@@ -1,3 +1,6 @@
+# How to Use? 
+# docker build --build-arg TD_COMMIT=v1.8.8 -t tdlib-env .
+
 FROM alpine:3.18.3 as tdlib-builder
 
 ENV LANG en_US.UTF-8
